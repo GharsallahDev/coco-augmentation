@@ -1,0 +1,27 @@
+{
+    "images_dir": "./images",
+    "output_dir": "./augmented_images",
+    "annotations_json": "_annotations.coco.json",
+    "transforms": {
+        "rotate_90": true,
+        "rotate_270": true,
+        "flip_vertical": true,
+        "flip_horizontal": true,
+        "flip_both": true,
+        "rotate_90_flip_horizontal": true,
+        "rotate_90_flip_vertical": true,
+        "scale": true,
+        "zoom": true,
+        "shear_x": true,
+        "shear_y": true,
+        "perspective_warp": true,
+        "color_jitter": true,
+        "gaussian_blur": true,
+        "noise": true,
+        "contrast": true,
+        "brightness": true,
+        "saturation": true,
+        "histogram_equalization": true,
+        "erase": true
+    }
+}
